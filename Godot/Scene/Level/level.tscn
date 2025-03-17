@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=4 uid="uid://bs6suveo4q5rh"]
+
+[ext_resource type="Script" path="res://Godot/Scene/Level/level.gd" id="1_bui48"]
+[ext_resource type="Texture2D" uid="uid://wmtgcgbeb1mr" path="res://Resources/testmap.png" id="2_wgwbr"]
+[ext_resource type="Texture2D" uid="uid://wp057l0accke" path="res://Resources/testmapwalls.png" id="3_tf05g"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2ddkw"]
+texture = ExtResource("2_wgwbr")
+margins = Vector2i(45, 45)
+separation = Vector2i(45, 0)
+texture_region_size = Vector2i(55, 55)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_tue6h"]
+tile_size = Vector2i(55, 55)
+sources/11 = SubResource("TileSetAtlasSource_2ddkw")
+tile_proxies/coords_level = [[0, Vector2i(2, 2)], [4, Vector2i(2, 2)], [0, Vector2i(2, 3)], [4, Vector2i(2, 3)], [0, Vector2i(2, 4)], [4, Vector2i(2, 4)], [0, Vector2i(2, 5)], [4, Vector2i(2, 5)], [0, Vector2i(3, 2)], [4, Vector2i(3, 2)], [0, Vector2i(3, 3)], [4, Vector2i(3, 3)], [0, Vector2i(3, 4)], [4, Vector2i(3, 4)], [0, Vector2i(3, 5)], [4, Vector2i(3, 5)], [0, Vector2i(4, 2)], [4, Vector2i(4, 2)], [0, Vector2i(4, 3)], [4, Vector2i(4, 3)], [0, Vector2i(4, 4)], [4, Vector2i(4, 4)], [0, Vector2i(4, 5)], [4, Vector2i(4, 5)], [0, Vector2i(5, 2)], [4, Vector2i(5, 2)], [0, Vector2i(5, 3)], [4, Vector2i(5, 3)], [0, Vector2i(5, 4)], [4, Vector2i(5, 4)], [0, Vector2i(5, 5)], [4, Vector2i(5, 5)], [1, Vector2i(0, 0)], [4, Vector2i(6, 0)], [1, Vector2i(2, 2)], [4, Vector2i(8, 2)], [1, Vector2i(2, 3)], [4, Vector2i(8, 3)], [1, Vector2i(2, 4)], [4, Vector2i(8, 4)], [1, Vector2i(2, 5)], [4, Vector2i(8, 5)], [1, Vector2i(3, 2)], [4, Vector2i(9, 2)], [1, Vector2i(3, 3)], [4, Vector2i(9, 3)], [1, Vector2i(3, 4)], [4, Vector2i(9, 4)], [1, Vector2i(3, 5)], [4, Vector2i(9, 5)], [1, Vector2i(4, 2)], [4, Vector2i(10, 2)], [1, Vector2i(4, 3)], [4, Vector2i(10, 3)], [1, Vector2i(4, 4)], [4, Vector2i(10, 4)], [1, Vector2i(4, 5)], [4, Vector2i(10, 5)], [1, Vector2i(5, 2)], [4, Vector2i(11, 2)], [1, Vector2i(5, 3)], [4, Vector2i(11, 3)], [1, Vector2i(5, 4)], [4, Vector2i(11, 4)], [1, Vector2i(5, 5)], [4, Vector2i(11, 5)], [2, Vector2i(2, 2)], [4, Vector2i(14, 2)], [2, Vector2i(2, 3)], [4, Vector2i(14, 3)], [2, Vector2i(2, 4)], [4, Vector2i(14, 4)], [2, Vector2i(2, 5)], [4, Vector2i(14, 5)], [2, Vector2i(3, 2)], [4, Vector2i(15, 2)], [2, Vector2i(3, 3)], [4, Vector2i(15, 3)], [2, Vector2i(3, 4)], [4, Vector2i(15, 4)], [2, Vector2i(3, 5)], [4, Vector2i(15, 5)], [2, Vector2i(4, 2)], [4, Vector2i(16, 2)], [2, Vector2i(4, 3)], [4, Vector2i(16, 3)], [2, Vector2i(4, 4)], [4, Vector2i(16, 4)], [2, Vector2i(4, 5)], [4, Vector2i(16, 5)], [2, Vector2i(5, 2)], [4, Vector2i(17, 2)], [2, Vector2i(5, 3)], [4, Vector2i(17, 3)], [2, Vector2i(5, 4)], [4, Vector2i(17, 4)], [2, Vector2i(5, 5)], [4, Vector2i(17, 5)], [3, Vector2i(2, 2)], [4, Vector2i(20, 2)], [3, Vector2i(2, 3)], [4, Vector2i(20, 3)], [3, Vector2i(2, 4)], [4, Vector2i(20, 4)], [3, Vector2i(2, 5)], [4, Vector2i(20, 5)], [3, Vector2i(3, 2)], [4, Vector2i(21, 2)], [3, Vector2i(3, 3)], [4, Vector2i(21, 3)], [3, Vector2i(3, 4)], [4, Vector2i(21, 4)], [3, Vector2i(3, 5)], [4, Vector2i(21, 5)], [3, Vector2i(4, 2)], [4, Vector2i(22, 2)], [3, Vector2i(4, 3)], [4, Vector2i(22, 3)], [3, Vector2i(4, 4)], [4, Vector2i(22, 4)], [3, Vector2i(4, 5)], [4, Vector2i(22, 5)], [3, Vector2i(5, 2)], [4, Vector2i(23, 2)], [3, Vector2i(5, 3)], [4, Vector2i(23, 3)], [3, Vector2i(5, 4)], [4, Vector2i(23, 4)], [3, Vector2i(5, 5)], [4, Vector2i(23, 5)]]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vq8c1"]
+texture = ExtResource("3_tf05g")
+texture_region_size = Vector2i(100, 100)
+0:0/0 = 0
+1:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_4usmc"]
+tile_offset_axis = 1
+tile_size = Vector2i(55, 55)
+sources/2 = SubResource("TileSetAtlasSource_vq8c1")
+tile_proxies/coords_level = [[0, Vector2i(0, 0)], [2, Vector2i(0, 0)], [1, Vector2i(0, 0)], [2, Vector2i(1, 0)]]
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_bui48")
+
+[node name="TileMapLayer2" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD///7/CwADAAAAAAAAAP7/CwACAAAAAAABAP7/CwAEAAAAAAACAP7/CwAEAAAAAAACAP3/CwAEAAAAAAABAP3/CwADAAAAAGAAAP3/CwACAAAAAAD///3/CwADAAAAAAD+//3/CwACAAAAAAD9//3/CwACAAAAAAD9//7/CwAEAAAAAAD+//7/CwAEAAAAAAD8//3/CwACAAAAAAD8//7/CwAEAAAAAAD7//z/CwACAAAAAAD8//z/CwACAAAAAAD9//z/CwACAAAAAAD+//z/CwACAAAAAAD///z/CwACAAAAAAAAAPz/CwACAAAAAAABAPz/CwACAAAAAAACAPz/CwACAAAAAAADAP7/CwAEAAAAAAADAP3/CwAEAAAAAAADAPz/CwACAAAAAAADAP//CwAEAAAAAAAEAP7/CwAEAAAAAAAEAP3/CwAEAAAAAAAEAP//CwAEAAAAAAAEAPz/CwACAAAAAAAAAPv/CwACAAAAAAABAPv/CwACAAAAAAD///v/CwACAAAAAAD9//v/CwACAAAAAAD+//v/CwACAAAAAAD8//v/CwACAAAAAAD7//v/CwACAAAAAAADAPv/CwACAAAAAAACAPv/CwACAAAAAAAEAPv/CwACAAAAAAA=")
+tile_set = SubResource("TileSet_tue6h")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(32, 32)
+tile_map_data = PackedByteArray("AAD+//7/AgAAAAAAAAD+////AgAAAAAAAAD+/wAAAgAAAAAAAAAAAP7/AgAAAAAAAAD9//7/AgAAAAAAAAD///7/AgAAAAAAAAABAP7/AgAAAAAAAAACAP7/AgAAAAAAAAADAP7/AgAAAAAAAAADAP3/AgABAAAAAAADAPz/AgABAAAAAAADAPv/AgAAAAAAAAACAPv/AgAAAAAAAAABAPv/AgAAAAAAAAAAAPv/AgAAAAAAAAD///v/AgAAAAAAAAD+//v/AgAAAAAAAAD9//v/AgAAAAAAAAD8//v/AgAAAAAAAAD7//v/AgAAAAAAAAD6//z/AgABAAAAAAD6//3/AgABAAAAAAD6//7/AgABAAAAAAD7//7/AgAAAAAAAAD8//7/AgAAAAAAAAD4//v/AgAAAAAAAAD4//z/AgAAAAAAAAD5//v/AgAAAAAAAAD5//z/AgAAAAAAAAD8/wAAAgAAAAAAAAD8////AgAAAAAAAAD7////AgAAAAAAAAD6////AgAAAAAAAAD5////AgAAAAAAAAD5//7/AgAAAAAAAAD5//3/AgAAAAAAAAD4//3/AgAAAAAAAAD4//7/AgAAAAAAAAD4////AgAAAAAAAAD4/wAAAgAAAAAAAAD5/wAAAgAAAAAAAAD6/wAAAgAAAAAAAAD7/wAAAgAAAAAAAAD9////AgAAAAAAAAD9/wAAAgAAAAAAAAD/////AgAAAAAAAAD//wAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAP//AgAAAAAAAAABAP//AgAAAAAAAAABAAAAAgAAAAAAAAACAAAAAgAAAAAAAAACAP//AgAAAAAAAAADAP//AgAAAAAAAAADAAAAAgAAAAAAAADy/wEAAgAAAAAAAADz/wEAAgAAAAAAAAD0/wEAAgAAAAAAAAD1/wEAAgAAAAAAAAD2/wEAAgAAAAAAAAD3/wEAAgAAAAAAAAD4/wEAAgAAAAAAAAD5/wEAAgAAAAAAAAD6/wEAAgAAAAAAAAD7/wEAAgAAAAAAAAD8/wEAAgAAAAAAAAD9/wEAAgAAAAAAAAD+/wEAAgAAAAAAAAD//wEAAgAAAAAAAAAAAAEAAgAAAAAAAAABAAEAAgAAAAAAAAACAAEAAgAAAAAAAAADAAEAAgAAAAAAAAAEAAEAAgAAAAAAAAAFAAEAAgAAAAAAAAAGAAEAAgAAAAAAAAAHAAEAAgAAAAAAAAAIAAEAAgAAAAAAAAAJAAEAAgAAAAAAAAAKAAEAAgAAAAAAAAALAAEAAgAAAAAAAAAMAAEAAgAAAAAAAAANAAEAAgAAAAAAAAAOAAEAAgAAAAAAAAAPAAEAAgAAAAAAAAAQAAEAAgAAAAAAAAARAAEAAgAAAAAAAAASAAEAAgAAAAAAAAATAAEAAgAAAAAAAAD8//z/AgAAAAAAAAD9//z/AgAAAAAAAAD+//z/AgAAAAAAAAD+//3/AgAAAAAAAAD///3/AgAAAAAAAAAAAP3/AgAAAAAAAAABAP3/AgAAAAAAAAAGAAAAAgAAAAAAAAAHAAAAAgAAAAAAAAAIAAAAAgAAAAAAAAAJAAAAAgAAAAAAAAAEAAAAAgAAAAAAAAAFAAAAAgAAAAAAAAAKAAAAAgAAAAAAAAAEAP//AgAAAAAAAAAFAP//AgAAAAAAAAAGAP//AgAAAAAAAAAHAP//AgAAAAAAAAAIAP//AgAAAAAAAAAJAP//AgAAAAAAAAAKAP//AgAAAAAAAAAEAP7/AgAAAAAAAAAFAP7/AgAAAAAAAAAGAP7/AgAAAAAAAAAHAP7/AgAAAAAAAAAIAP7/AgAAAAAAAAAJAP7/AgAAAAAAAAALAP//AgAAAAAAAAAKAP7/AgAAAAAAAAALAP7/AgAAAAAAAAAMAP7/AgAAAAAAAAANAP7/AgAAAAAAAAAMAP//AgAAAAAAAAANAP//AgAAAAAAAAAOAP//AgAAAAAAAAAPAP//AgAAAAAAAAALAAAAAgAAAAAAAAAMAAAAAgAAAAAAAAANAAAAAgAAAAAAAAAOAAAAAgAAAAAAAAAPAAAAAgAAAAAAAAA=")
+tile_set = SubResource("TileSet_4usmc")
+rendering_quadrant_size = 128
